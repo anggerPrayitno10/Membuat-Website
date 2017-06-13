@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("image/night.jpeg");
+	background-color: #000;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+	
+}
+
+header{
+	width: 100%;
+	height: 40px;
+	background-color: rgba(10, 10, 10, 0.4);
+	position: fixed;
+	z-index: 2;
+}
+
+
+header nav{
+	float: right;
+	margin: 15px 0;
+}
+
+header nav li{
+	display: inline-block;
+	padding: 0 30px;
+}
+
+header nav li a{
+	border-radius: 10px;
+	border: 2px solid rgba(250, 250, 250, 0.4);
+	padding: 2px;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+section{
+	width: 90%;
+	overflow: hidden;
+	z-index: 1;	
+}
+
+footer{
+	z-index: 1;
+	padding: 10px 0;
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+h5{
+	color: #fff;
+	clear: both;
+	text-align: center;
+}
+
+h2{
+	padding: 10px 0;
+	color: #f90;
+
+}
+
+td{
+	color: #f90;
+}
+
+.left{
+	margin: 50px 0 0 35px;
+	float: left;
+	width: 200px;
+	
+}
+.fotoku{
+	padding: 5px; 
+	width: 180px;
+	height: 250px;
+	background-color: rgba(240, 240, 240, 0.4);
+
+}
+
+.profilku{
+	width: 190px;
+	font-family: sans-serif;
+	font-size: 12px;
+	float: left;
+	color: #ccc;
+} 
+
+.kanan{
+	color: #fff;
+	text-align: right;
+	font-weight: bold;
+}
+
+.right{
+	background-image: url("image/black-40.png");
+	width: 800px;
+	margin: 50px 10px;
+	float: left;	
+}
+
+.right p{
+	line-height: 1.5;
+	font-family: sans-serif;
+	text-align: justify;
+	text-indent: 50px;
+	letter-spacing: 1px;
+}
+
+.article1{
+	color: #888;
+	padding: 10px;
+}
+
+.article2{
+	color: #c0c0c0;
+	padding: 10px;
+}
+
+.article3{
+	color: #fff;
+	padding: 10px;
+}
